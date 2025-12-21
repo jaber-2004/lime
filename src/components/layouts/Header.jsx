@@ -23,10 +23,10 @@ const Header = () => {
           <div className="ml-80">
             <ul className="flex gap-x-6 text-sm text-white font-poppins">
               <li>
-                <Link to={"/about Us"}>About Us</Link>
+                <Link to={"/about-Us"}>About Us</Link>
               </li>
               <li>
-                <Link to={"/why Lime"}>Why Lime</Link>
+                <Link to={"/why-Lime"}>Why Lime</Link>
               </li>
               <li>
                 <Link to={"/vehicles"}>Vehicles</Link>
