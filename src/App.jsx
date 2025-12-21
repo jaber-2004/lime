@@ -19,8 +19,8 @@ function App() {
     <Routes>
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
-        <Route path="/about us" element={<Aboutus />} />
-        <Route path="/why lime" element={<Whylime />} />
+        <Route path="/about-us" element={<Aboutus />} />
+        <Route path="/why-lime" element={<Whylime />} />
         <Route path="/vehicles" element={<Vehicles />} />
         <Route path="/locations" element={<Locations />} />
         <Route path="/advertise" element={<Advertise />} />
