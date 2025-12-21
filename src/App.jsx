@@ -9,6 +9,7 @@ import Locations from "./components/pages/Locations";
 import Advertise from "./components/pages/Advertise";
 import Blog from "./components/pages/Blog";
 import Help from "./components/pages/Help";
+import Error from "./components/pages/Error";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/help" element={<Help />} />
       </Route>
+        <Route path="*" element={<Error />} />
     </Routes>
   );
 }
