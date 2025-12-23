@@ -11,8 +11,6 @@ import Blog from "./components/pages/Blog";
 import Help from "./components/pages/Help";
 import Error from "./components/pages/Error";
 
-// import { HashRouter as Router, Routes, Route } from "react-router-dom";
-
 
 function App() {
   return (
